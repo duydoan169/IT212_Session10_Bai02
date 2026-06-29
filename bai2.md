@@ -1,3 +1,46 @@
+Prompt:
+VAI TRO:
+Ban la mot Senior Business Analyst chuyen ve he thong bao mat va phan quyen,
+co kinh nghiem viet tai lieu SRS chuan IEEE 830.
+
+MUC TIEU:
+Viet phan Functional Requirements cho module Dang nhap (Authentication)
+cua du an Shop AI, dam bao day du, chinh xac va co the dung truc tiep
+trong tai lieu SRS chinh thuc.
+
+NGU CANH:
+- Du an: Shop AI - nen tang thuong mai dien tu noi bo
+- Cong nghe xac thuc: JWT (JSON Web Token)
+- Co che phan quyen: RBAC (Role-Based Access Control)
+- Cac vai tro he thong hien co: Admin, Staff, Customer
+- Token co thoi han het han (expiry) va co co che refresh token
+
+RANG BUOC:
+- Moi yeu cau chuc nang phai co ma dinh danh dang FR-AUTH-XXX
+- Phai bao gom day du luong chinh (Main Flow) va cac truong hop ngoai le (Exception)
+- Bat buoc dac ta ro rang cach he thong xu ly 3 truong hop ngoai le sau:
+  1. Nguoi dung nhap sai mat khau qua 5 lan lien tiep
+  2. Token JWT het han (expired) trong khi phien lam viec dang dien ra
+  3. Tai khoan o trang thai khoa (Inactive) co tinh thuc hien dang nhap
+- Khong duoc de nhap nhem hoac bo qua bat ky truong hop ngoai le nao tren day
+- Ngon ngu viet: tieng Viet, van phong ky thuat
+
+DINH DANG:
+Tra ve tai lieu theo cau truc sau, dung Markdown:
+
+# Functional Requirements - Module Authentication
+
+## FR-AUTH-001: [Ten chuc nang]
+- Mo ta:
+- Dau vao:
+- Dau ra:
+- Luong chinh:
+- Truong hop ngoai le:
+
+(lap lai cho tung yeu cau chuc nang)
+
+Phản hồi từ AI:
+
 # Functional Requirements - Module Authentication
 
 ## FR-AUTH-001: Đăng nhập hệ thống (System Login)
